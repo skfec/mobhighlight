@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "mobhighlight",
+  "version": "${version}",
+  "name": "Mob Highlight",
+  "description": "Подсветка мобов при наведении прицела + звук при ударе",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.mobhighlight.MobHighlight"],
+    "client": ["com.example.mobhighlight.MobHighlightClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
